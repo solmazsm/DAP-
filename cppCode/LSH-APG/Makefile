@@ -3,8 +3,7 @@
 CC=g++ -std=c++17 -Ofast -lrt -DNDEBUG  -DHAVE_CXX0X -march=native -fpic -w -ftree-vectorize -ftree-vectorizer-verbose=0
 
 CCOMP=g++ -std=c++17 -Ofast -lrt -DNDEBUG  -DHAVE_CXX0X -openmp -march=native -fpic -w -fopenmp -ftree-vectorize -ftree-vectorizer-verbose=0
-SRCS=$(wildcard ./src/*.cpp)
-
+SRCS=$(filter-out ./src/distances_simd_avx512.cpp, $(wildcard ./src/*.cpp))
 
 lgo:$(SRCS)
 	rm -rf lgo

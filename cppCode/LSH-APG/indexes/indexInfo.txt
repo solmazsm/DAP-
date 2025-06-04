@@ -1,0 +1,20 @@
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750328, cnt=36.163654, unique=1, std=9.404104, Recall=0.631315
+cc=620.440491, pruning=0.440535, IndexingTime=3.853132 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754535, cnt=36.155350, unique=1, std=9.409126, Recall=0.625120
+cc=621.240295, pruning=0.439484, IndexingTime=2.230213 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1275.089966, cnt=37.505032, unique=1, std=9.180498, Recall=0.750291
+cc=547.803833, pruning=0.363252, IndexingTime=2.947253 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1272.421875, cnt=37.509815, unique=1, std=9.185652, Recall=0.777278
+cc=548.364319, pruning=0.362456, IndexingTime=2.960835 s.
+

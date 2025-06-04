@@ -3,7 +3,7 @@
 #include <cmath>
 #include <assert.h>
 #include <unordered_map>
-
+#include <string>
 //#define _NOQUERY
 
 class Preprocess

@@ -53,6 +53,8 @@ Preprocess::Preprocess(const std::string& path, const std::string& ben_file_, fl
 void Preprocess::load_data(const std::string& path)
 {
 	std::string file = path + "_new";
+	std::cerr << "Looking for file: " << file << std::endl;
+
 	std::ifstream in(file.c_str(), std::ios::binary);
 	while (!in) {
 		printf("Fail to find data file!\n");
