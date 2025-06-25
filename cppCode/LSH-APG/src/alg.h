@@ -26,9 +26,17 @@ struct llt
 };
 #endif
 
+struct SearchResult {
+	float recall;
+	float cost;
+	float time;
+	float pruning;
+	std::string rowString;
+};
+
 template <class Graph>
-void graphSearch(float c, int k, Graph* myGraph, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold, int qType) {
-	if (!myGraph) return;
+SearchResult graphSearch(float c, int k, Graph* myGraph, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold, int qType, const std::string& algName) {
+	if (!myGraph) return SearchResult{-1.0f, -1.0f, -1.0f, -1.0f, ""};
 
 	lsh::timer timer;
 	int Qnum = 100;
@@ -50,16 +58,7 @@ void graphSearch(float c, int k, Graph* myGraph, Preprocess& prep, float beta, s
 	}
 
 	
-	std::string algName, qt;
-	switch (qType/2) {
-	case 0:
-		algName = "fastG";
-		break;
-	case 1:
-		algName = "divGraph";
-		break;
-	}
-
+	std::string qt;
 	switch (qType % 2) {
 	case 0:
 		qt = "Fast";
@@ -98,8 +97,9 @@ void graphSearch(float c, int k, Graph* myGraph, Preprocess& prep, float beta, s
 	std::string query_result(myGraph->getFilename());
 	auto idx = query_result.rfind('/');
 	query_result.assign(query_result.begin(), query_result.begin() + idx + 1);
-	query_result += "result.txt";
-	std::ofstream osf(query_result, std::ios_base::app);
+	// Use datasetName for result file in indexes directory
+	std::string result_file = "indexes/" + datasetName + "_result.txt";
+	std::ofstream osf(result_file, std::ios_base::app);
 	osf.seekp(0, std::ios_base::end);
 	osf << ss.str();
 	osf.close();
@@ -132,6 +132,14 @@ void graphSearch(float c, int k, Graph* myGraph, Preprocess& prep, float beta, s
 			<< std::endl;
 		os.close();
 	}
+
+	SearchResult result;
+	result.recall = ((float)perform.NN_num) / (perform.num * k);
+	result.cost = ((float)perform.cost) / ((float)perform.num);
+	result.time = mean_time * 1000;
+	result.pruning = ((float)perform.prunings) / (perform.cost);
+	result.rowString = ss.str();
+	return result;
 }
 
 void zlshKnn(float c, int k, e2lsh& myLsh, Preprocess& prep, float beta, std::string& datasetName, std::string& data_fold) {

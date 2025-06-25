@@ -164,6 +164,7 @@ public:
 	uint64_t getKey(int u, int v);
 	inline constexpr uint64_t getKey(tPoints& tp) const noexcept { return *(uint64_t*)&tp; }
 public:
+	float last_threshold = -1.0f; // Store the last used threshold for DAP
 	std::string getFilename() const { return file; }
 	void knn(queryN* q) override;
 	//void knn(queryN* q);
@@ -491,14 +492,34 @@ void divGraph::insertLSHRefine(int pId)
 
 	write_lock lock(link_list_locks_[pId]);
 	std::priority_queue<Res, std::vector<Res>, std::greater<Res>> eps;
+
+	// 1. Collect all candidate distances
+	std::vector<Res> candidates;
 	while (!candTable.empty()) {
-		auto u = candTable.top();
-		int qId = u.id;
-		float dist = u.dist;
-		linkLists[pId]->insert(u.dist, u.id);
-		if (linkLists[pId]->size() > efC)linkLists[pId]->erase();
-		eps.emplace(u.dist, u.id);
+		candidates.push_back(candTable.top());
 		candTable.pop();
+	}
+
+	// 2. Sort by distance
+	std::sort(candidates.begin(), candidates.end(), [](const Res& a, const Res& b) {
+		return a.dist < b.dist;
+	});
+
+	// 3. Compute percentile threshold (e.g., 80th percentile)
+	float threshold = -1.0f;
+	if (!candidates.empty()) {
+		size_t percentile_idx = candidates.size() * 0.8;
+		threshold = candidates[std::min(percentile_idx, candidates.size() - 1)].dist;
+	}
+	this->last_threshold = threshold; // Store the real threshold for output
+
+	// 4. Add only edges below threshold
+	for (const auto& u : candidates) {
+		if (u.dist < threshold) {
+			linkLists[pId]->insert(u.dist, u.id);
+			if (linkLists[pId]->size() > efC) linkLists[pId]->erase();
+			eps.emplace(u.dist, u.id);
+		}
 	}
 	compCostConstruction += searchInBuilding(pId, eps, linkLists[pId]->neighbors, linkLists[pId]->out, checkedArrs_local, tag);
 	chooseNN(linkLists[pId]->neighbors, linkLists[pId]->out);

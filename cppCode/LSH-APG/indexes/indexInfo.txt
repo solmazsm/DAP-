@@ -18,3 +18,1453 @@ T=24,L=2,K=18
 dist=1272.421875, cnt=37.509815, unique=1, std=9.185652, Recall=0.777278
 cc=548.364319, pruning=0.362456, IndexingTime=2.960835 s.
 
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749389, cnt=36.168343, unique=1, std=9.392668, Recall=0.644565
+cc=619.757080, pruning=0.439530, IndexingTime=2.897627 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754757, cnt=36.131119, unique=1, std=9.414916, Recall=0.633651
+cc=620.570251, pruning=0.440172, IndexingTime=3.676338 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758911, cnt=36.142986, unique=1, std=9.406813, Recall=0.609249
+cc=619.347290, pruning=0.441054, IndexingTime=4.073930 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752966, cnt=36.159706, unique=1, std=9.387522, Recall=0.629539
+cc=619.823853, pruning=0.439774, IndexingTime=4.019916 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748147, cnt=36.154873, unique=1, std=9.411327, Recall=0.640045
+cc=620.521851, pruning=0.439194, IndexingTime=3.865339 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746862, cnt=36.142654, unique=1, std=9.403767, Recall=0.645157
+cc=620.470459, pruning=0.439406, IndexingTime=3.809286 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752966, cnt=36.145054, unique=1, std=9.402696, Recall=0.635841
+cc=618.972107, pruning=0.439829, IndexingTime=3.314516 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755250, cnt=36.188789, unique=1, std=9.395138, Recall=0.627865
+cc=620.396057, pruning=0.439536, IndexingTime=3.574589 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749330, cnt=36.168564, unique=1, std=9.399624, Recall=0.632135
+cc=620.574707, pruning=0.438345, IndexingTime=3.411670 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752288, cnt=36.176998, unique=1, std=9.398958, Recall=0.629554
+cc=621.266235, pruning=0.440260, IndexingTime=2.578476 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755466, cnt=36.158562, unique=1, std=9.409659, Recall=0.637641
+cc=620.393311, pruning=0.440018, IndexingTime=3.203068 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754739, cnt=36.160538, unique=1, std=9.410479, Recall=0.635114
+cc=620.859863, pruning=0.440392, IndexingTime=2.431854 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754570, cnt=36.157528, unique=1, std=9.413488, Recall=0.623342
+cc=619.549927, pruning=0.440209, IndexingTime=2.213366 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751536, cnt=36.155037, unique=1, std=9.417401, Recall=0.637066
+cc=619.671143, pruning=0.440221, IndexingTime=2.113068 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748853, cnt=36.194550, unique=1, std=9.412302, Recall=0.635451
+cc=620.516724, pruning=0.439657, IndexingTime=3.736891 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754413, cnt=36.151329, unique=1, std=9.394432, Recall=0.644292
+cc=620.406250, pruning=0.439759, IndexingTime=3.834585 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751897, cnt=36.145901, unique=1, std=9.415167, Recall=0.639265
+cc=619.071350, pruning=0.440595, IndexingTime=3.672220 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752182, cnt=36.178421, unique=1, std=9.404122, Recall=0.639957
+cc=619.589966, pruning=0.440567, IndexingTime=3.624987 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749190, cnt=36.186279, unique=1, std=9.420240, Recall=0.626011
+cc=621.923462, pruning=0.440610, IndexingTime=2.523748 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748725, cnt=36.172882, unique=1, std=9.404817, Recall=0.632196
+cc=620.395142, pruning=0.439913, IndexingTime=2.574118 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754878, cnt=36.140053, unique=1, std=9.385338, Recall=0.613285
+cc=621.744324, pruning=0.440454, IndexingTime=2.494872 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747158, cnt=36.144241, unique=1, std=9.395528, Recall=0.635511
+cc=618.892944, pruning=0.439581, IndexingTime=2.457934 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756306, cnt=36.169209, unique=1, std=9.405434, Recall=0.632988
+cc=620.066528, pruning=0.440636, IndexingTime=2.439356 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754589, cnt=36.188587, unique=1, std=9.396495, Recall=0.634014
+cc=619.781128, pruning=0.439617, IndexingTime=2.540438 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.760085, cnt=36.120544, unique=1, std=9.420753, Recall=0.624014
+cc=618.989441, pruning=0.438728, IndexingTime=2.604856 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752335, cnt=36.183292, unique=1, std=9.407414, Recall=0.642422
+cc=621.411560, pruning=0.439042, IndexingTime=2.521530 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745778, cnt=36.185265, unique=1, std=9.400293, Recall=0.648285
+cc=620.598938, pruning=0.439974, IndexingTime=2.530815 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747337, cnt=36.196541, unique=1, std=9.417398, Recall=0.628196
+cc=621.466980, pruning=0.441356, IndexingTime=2.459178 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755878, cnt=36.150551, unique=1, std=9.405165, Recall=0.627363
+cc=620.245178, pruning=0.439404, IndexingTime=2.436625 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.761049, cnt=36.135769, unique=1, std=9.419435, Recall=0.622087
+cc=620.285950, pruning=0.439748, IndexingTime=2.396170 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743445, cnt=36.132080, unique=1, std=9.415486, Recall=0.661960
+cc=619.283203, pruning=0.440925, IndexingTime=2.309920 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757340, cnt=36.169376, unique=1, std=9.412327, Recall=0.628791
+cc=620.802490, pruning=0.441403, IndexingTime=2.330817 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747417, cnt=36.144520, unique=1, std=9.399133, Recall=0.638930
+cc=619.634949, pruning=0.440313, IndexingTime=2.267760 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758287, cnt=36.154633, unique=1, std=9.421410, Recall=0.618951
+cc=619.729309, pruning=0.439646, IndexingTime=2.215483 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746358, cnt=36.184380, unique=1, std=9.406912, Recall=0.646031
+cc=620.879761, pruning=0.441364, IndexingTime=3.254833 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754518, cnt=36.165611, unique=1, std=9.399050, Recall=0.620536
+cc=621.006531, pruning=0.440936, IndexingTime=3.178883 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753646, cnt=36.156551, unique=1, std=9.420855, Recall=0.639123
+cc=618.159851, pruning=0.439784, IndexingTime=3.229044 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751806, cnt=36.151012, unique=1, std=9.410522, Recall=0.627787
+cc=618.758179, pruning=0.441322, IndexingTime=3.148070 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750523, cnt=36.176003, unique=1, std=9.415335, Recall=0.625153
+cc=619.619995, pruning=0.440503, IndexingTime=3.168416 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746304, cnt=36.137375, unique=1, std=9.392623, Recall=0.643990
+cc=619.961975, pruning=0.439997, IndexingTime=3.180169 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755785, cnt=36.161514, unique=1, std=9.410599, Recall=0.638748
+cc=621.069641, pruning=0.441336, IndexingTime=3.127998 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757433, cnt=36.153839, unique=1, std=9.401590, Recall=0.622583
+cc=620.993347, pruning=0.440726, IndexingTime=3.117137 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751050, cnt=36.163380, unique=1, std=9.407561, Recall=0.646410
+cc=619.922485, pruning=0.440826, IndexingTime=3.166083 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747104, cnt=36.180450, unique=1, std=9.401748, Recall=0.645874
+cc=619.278137, pruning=0.439391, IndexingTime=3.145063 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750655, cnt=36.148338, unique=1, std=9.399981, Recall=0.652144
+cc=620.226685, pruning=0.443084, IndexingTime=3.169000 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747643, cnt=36.161938, unique=1, std=9.395826, Recall=0.639099
+cc=619.067993, pruning=0.441137, IndexingTime=3.086468 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750857, cnt=36.164227, unique=1, std=9.407063, Recall=0.637314
+cc=621.762146, pruning=0.441018, IndexingTime=3.119608 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.742803, cnt=36.168381, unique=1, std=9.400946, Recall=0.646844
+cc=620.003784, pruning=0.443254, IndexingTime=3.152684 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747665, cnt=36.167274, unique=1, std=9.404766, Recall=0.650252
+cc=619.095398, pruning=0.441668, IndexingTime=3.001400 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755411, cnt=36.145790, unique=1, std=9.404202, Recall=0.638367
+cc=619.765381, pruning=0.440646, IndexingTime=2.894400 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755840, cnt=36.169449, unique=1, std=9.423888, Recall=0.610656
+cc=621.545959, pruning=0.440790, IndexingTime=3.201761 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748278, cnt=36.148117, unique=1, std=9.412485, Recall=0.631529
+cc=619.860291, pruning=0.441130, IndexingTime=3.204711 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746113, cnt=36.141899, unique=1, std=9.397503, Recall=0.639178
+cc=620.671448, pruning=0.439105, IndexingTime=3.131390 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755411, cnt=36.138741, unique=1, std=9.413624, Recall=0.634863
+cc=621.094482, pruning=0.440172, IndexingTime=3.208383 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752659, cnt=36.176907, unique=1, std=9.391352, Recall=0.626047
+cc=621.163696, pruning=0.440122, IndexingTime=3.164772 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757679, cnt=36.156754, unique=1, std=9.422184, Recall=0.621806
+cc=620.025452, pruning=0.439516, IndexingTime=3.221202 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753564, cnt=36.147968, unique=1, std=9.415248, Recall=0.608842
+cc=620.402710, pruning=0.440298, IndexingTime=3.188962 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751348, cnt=36.152969, unique=1, std=9.391771, Recall=0.642493
+cc=619.868958, pruning=0.439552, IndexingTime=3.153751 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752133, cnt=36.158524, unique=1, std=9.410941, Recall=0.636664
+cc=620.192566, pruning=0.441283, IndexingTime=3.115399 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752924, cnt=36.166035, unique=1, std=9.409727, Recall=0.618971
+cc=620.147583, pruning=0.439796, IndexingTime=3.131742 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756351, cnt=36.153229, unique=1, std=9.419152, Recall=0.620770
+cc=618.558899, pruning=0.440812, IndexingTime=3.130917 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755198, cnt=36.133926, unique=1, std=9.397383, Recall=0.619582
+cc=619.519897, pruning=0.441643, IndexingTime=3.140051 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758081, cnt=36.147949, unique=1, std=9.404437, Recall=0.630511
+cc=619.248901, pruning=0.440467, IndexingTime=3.151695 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751122, cnt=36.183865, unique=1, std=9.397683, Recall=0.624156
+cc=618.900940, pruning=0.440366, IndexingTime=3.260288 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755210, cnt=36.154633, unique=1, std=9.410610, Recall=0.638536
+cc=620.224976, pruning=0.440697, IndexingTime=3.108848 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747865, cnt=36.147415, unique=1, std=9.401590, Recall=0.642605
+cc=620.128296, pruning=0.440479, IndexingTime=2.842202 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756861, cnt=36.180412, unique=1, std=9.424291, Recall=0.623972
+cc=620.695435, pruning=0.440964, IndexingTime=3.123237 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756241, cnt=36.142120, unique=1, std=9.388990, Recall=0.638858
+cc=619.655212, pruning=0.439899, IndexingTime=3.158762 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744265, cnt=36.113255, unique=1, std=9.393002, Recall=0.642759
+cc=620.168884, pruning=0.440743, IndexingTime=3.086932 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743252, cnt=36.154003, unique=1, std=9.392905, Recall=0.647116
+cc=619.784302, pruning=0.440749, IndexingTime=3.138149 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750943, cnt=36.180801, unique=1, std=9.405700, Recall=0.652319
+cc=621.412292, pruning=0.441140, IndexingTime=3.165766 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757236, cnt=36.145256, unique=1, std=9.396451, Recall=0.620210
+cc=620.544067, pruning=0.440596, IndexingTime=3.205980 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753098, cnt=36.150646, unique=1, std=9.386818, Recall=0.638761
+cc=620.932678, pruning=0.440461, IndexingTime=3.199596 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752940, cnt=36.172146, unique=1, std=9.399411, Recall=0.638596
+cc=620.174805, pruning=0.440532, IndexingTime=3.169490 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747373, cnt=36.142673, unique=1, std=9.389656, Recall=0.653151
+cc=618.102478, pruning=0.440635, IndexingTime=3.134443 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751636, cnt=36.185783, unique=1, std=9.396335, Recall=0.634746
+cc=620.672119, pruning=0.440489, IndexingTime=3.164250 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755716, cnt=36.154835, unique=1, std=9.412998, Recall=0.604021
+cc=618.855957, pruning=0.441115, IndexingTime=3.119829 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748993, cnt=36.190121, unique=1, std=9.414689, Recall=0.631750
+cc=620.679932, pruning=0.440055, IndexingTime=3.104175 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752180, cnt=36.155571, unique=1, std=9.401786, Recall=0.625034
+cc=618.181458, pruning=0.440974, IndexingTime=3.130942 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752253, cnt=36.153229, unique=1, std=9.400029, Recall=0.622478
+cc=618.668823, pruning=0.440872, IndexingTime=3.104652 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758221, cnt=36.194843, unique=1, std=9.417525, Recall=0.631125
+cc=620.900879, pruning=0.441140, IndexingTime=3.082172 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753017, cnt=36.147823, unique=1, std=9.404402, Recall=0.636364
+cc=619.516846, pruning=0.440490, IndexingTime=2.933528 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755551, cnt=36.169800, unique=1, std=9.406846, Recall=0.617309
+cc=620.133667, pruning=0.440846, IndexingTime=3.035840 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751142, cnt=36.155922, unique=1, std=9.402735, Recall=0.662896
+cc=620.184692, pruning=0.440084, IndexingTime=3.034339 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.760420, cnt=36.150959, unique=1, std=9.403291, Recall=0.621481
+cc=618.917908, pruning=0.441631, IndexingTime=2.995314 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751127, cnt=36.153965, unique=1, std=9.401081, Recall=0.626843
+cc=621.153198, pruning=0.440791, IndexingTime=3.184113 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754288, cnt=36.150665, unique=1, std=9.388325, Recall=0.622762
+cc=619.314575, pruning=0.440832, IndexingTime=2.988881 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752456, cnt=36.143963, unique=1, std=9.390822, Recall=0.621470
+cc=618.946228, pruning=0.440859, IndexingTime=3.057708 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756279, cnt=36.156254, unique=1, std=9.404464, Recall=0.629012
+cc=620.643616, pruning=0.441067, IndexingTime=3.021675 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750500, cnt=36.203701, unique=1, std=9.412557, Recall=0.638920
+cc=621.120544, pruning=0.440508, IndexingTime=2.996839 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756032, cnt=36.179768, unique=1, std=9.406665, Recall=0.617076
+cc=619.291870, pruning=0.441251, IndexingTime=3.029302 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754677, cnt=36.167126, unique=1, std=9.407200, Recall=0.640680
+cc=621.334351, pruning=0.441849, IndexingTime=3.086078 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750403, cnt=36.176113, unique=1, std=9.416316, Recall=0.620568
+cc=620.642212, pruning=0.440736, IndexingTime=2.938225 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750627, cnt=36.132504, unique=1, std=9.391415, Recall=0.648761
+cc=618.151062, pruning=0.441698, IndexingTime=3.080336 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750931, cnt=36.159023, unique=1, std=9.413399, Recall=0.640871
+cc=619.092773, pruning=0.441172, IndexingTime=3.023912 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746871, cnt=36.170891, unique=1, std=9.401637, Recall=0.629116
+cc=620.271301, pruning=0.440315, IndexingTime=3.159967 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.739552, cnt=36.170319, unique=1, std=9.403371, Recall=0.640979
+cc=618.964478, pruning=0.440391, IndexingTime=3.121077 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745905, cnt=36.142284, unique=1, std=9.403754, Recall=0.632750
+cc=619.887207, pruning=0.440367, IndexingTime=2.872251 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748178, cnt=36.158634, unique=1, std=9.403658, Recall=0.630050
+cc=620.978455, pruning=0.440605, IndexingTime=3.918486 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744027, cnt=36.155720, unique=1, std=9.402226, Recall=0.641918
+cc=620.122925, pruning=0.441264, IndexingTime=3.966465 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750494, cnt=36.153984, unique=1, std=9.415047, Recall=0.652564
+cc=618.884216, pruning=0.441414, IndexingTime=4.057294 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.741504, cnt=36.131748, unique=1, std=9.405326, Recall=0.654520
+cc=618.658203, pruning=0.441126, IndexingTime=4.023906 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748169, cnt=36.149796, unique=1, std=9.407406, Recall=0.639714
+cc=621.240723, pruning=0.440509, IndexingTime=3.942092 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755164, cnt=36.140385, unique=1, std=9.405798, Recall=0.612332
+cc=619.111511, pruning=0.440124, IndexingTime=3.917011 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751339, cnt=36.138538, unique=1, std=9.394872, Recall=0.634406
+cc=621.152893, pruning=0.441602, IndexingTime=3.994836 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753856, cnt=36.133926, unique=1, std=9.399636, Recall=0.641863
+cc=618.815308, pruning=0.441762, IndexingTime=4.017869 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752575, cnt=36.165318, unique=1, std=9.411970, Recall=0.643425
+cc=620.562500, pruning=0.440291, IndexingTime=3.946819 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758634, cnt=36.158619, unique=1, std=9.401717, Recall=0.614869
+cc=619.553894, pruning=0.441334, IndexingTime=3.074456 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747172, cnt=36.160000, unique=1, std=9.396704, Recall=0.636413
+cc=620.423218, pruning=0.440448, IndexingTime=3.106520 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750527, cnt=36.166756, unique=1, std=9.404165, Recall=0.634650
+cc=620.575134, pruning=0.441634, IndexingTime=3.024247 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754079, cnt=36.145775, unique=1, std=9.415184, Recall=0.628094
+cc=620.833313, pruning=0.441059, IndexingTime=3.098385 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753114, cnt=36.152824, unique=1, std=9.402637, Recall=0.621281
+cc=620.544495, pruning=0.440569, IndexingTime=2.993253 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758367, cnt=36.168030, unique=1, std=9.410179, Recall=0.612890
+cc=620.210876, pruning=0.441050, IndexingTime=2.954768 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752955, cnt=36.154556, unique=1, std=9.394779, Recall=0.638628
+cc=620.515869, pruning=0.441019, IndexingTime=2.807295 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747608, cnt=36.146217, unique=1, std=9.399405, Recall=0.638633
+cc=619.961609, pruning=0.441041, IndexingTime=3.990140 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754260, cnt=36.161255, unique=1, std=9.401337, Recall=0.633598
+cc=621.191650, pruning=0.440960, IndexingTime=4.067607 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747752, cnt=36.163803, unique=1, std=9.420632, Recall=0.635796
+cc=619.513916, pruning=0.439374, IndexingTime=3.927501 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747381, cnt=36.163029, unique=1, std=9.391412, Recall=0.629993
+cc=620.611755, pruning=0.441150, IndexingTime=3.945203 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744324, cnt=36.158913, unique=1, std=9.405469, Recall=0.643783
+cc=620.257568, pruning=0.441130, IndexingTime=3.965735 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747366, cnt=36.157490, unique=1, std=9.400964, Recall=0.619930
+cc=618.330322, pruning=0.440438, IndexingTime=4.031319 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750326, cnt=36.183769, unique=1, std=9.412301, Recall=0.628591
+cc=619.594910, pruning=0.441627, IndexingTime=3.965851 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751449, cnt=36.155701, unique=1, std=9.387481, Recall=0.624249
+cc=619.197754, pruning=0.440419, IndexingTime=3.864433 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749298, cnt=36.153839, unique=1, std=9.404155, Recall=0.634681
+cc=620.084473, pruning=0.439817, IndexingTime=3.843253 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753511, cnt=36.180355, unique=1, std=9.403503, Recall=0.640833
+cc=620.738525, pruning=0.440534, IndexingTime=3.846894 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747402, cnt=36.139240, unique=1, std=9.393152, Recall=0.629087
+cc=619.370117, pruning=0.440696, IndexingTime=3.885794 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754950, cnt=36.169025, unique=1, std=9.401821, Recall=0.625241
+cc=621.280457, pruning=0.440651, IndexingTime=3.821188 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753513, cnt=36.180817, unique=1, std=9.411869, Recall=0.639511
+cc=619.802979, pruning=0.440132, IndexingTime=3.866332 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755749, cnt=36.151329, unique=1, std=9.385254, Recall=0.640161
+cc=618.871338, pruning=0.440949, IndexingTime=3.758122 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748702, cnt=36.125511, unique=1, std=9.404267, Recall=0.636711
+cc=619.323547, pruning=0.441065, IndexingTime=3.763746 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745845, cnt=36.161385, unique=1, std=9.405375, Recall=0.640921
+cc=619.584106, pruning=0.442578, IndexingTime=3.735981 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751967, cnt=36.170410, unique=1, std=9.408320, Recall=0.641481
+cc=620.529053, pruning=0.441185, IndexingTime=4.067832 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751873, cnt=36.158138, unique=1, std=9.386285, Recall=0.630287
+cc=619.114990, pruning=0.440622, IndexingTime=4.100825 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751818, cnt=36.170685, unique=1, std=9.413186, Recall=0.627552
+cc=622.101562, pruning=0.441446, IndexingTime=4.058538 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751148, cnt=36.144520, unique=1, std=9.387854, Recall=0.641096
+cc=619.491455, pruning=0.440995, IndexingTime=3.933865 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748405, cnt=36.159191, unique=1, std=9.410354, Recall=0.621425
+cc=618.224609, pruning=0.439668, IndexingTime=3.946505 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744103, cnt=36.135071, unique=1, std=9.366308, Recall=0.649398
+cc=618.388184, pruning=0.440368, IndexingTime=3.940146 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.759612, cnt=36.180431, unique=1, std=9.398594, Recall=0.610887
+cc=620.483704, pruning=0.442473, IndexingTime=3.981182 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749433, cnt=36.167419, unique=1, std=9.395397, Recall=0.627527
+cc=619.665405, pruning=0.441447, IndexingTime=3.970381 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755412, cnt=36.149059, unique=1, std=9.412628, Recall=0.623804
+cc=619.255981, pruning=0.441318, IndexingTime=3.935836 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748812, cnt=36.176704, unique=1, std=9.406910, Recall=0.643716
+cc=619.214905, pruning=0.440821, IndexingTime=3.897160 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749656, cnt=36.139942, unique=1, std=9.385354, Recall=0.633009
+cc=619.185364, pruning=0.440789, IndexingTime=3.860421 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757742, cnt=36.181667, unique=1, std=9.405645, Recall=0.620460
+cc=618.935669, pruning=0.441252, IndexingTime=3.873526 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752566, cnt=36.173954, unique=1, std=9.394588, Recall=0.627340
+cc=620.385559, pruning=0.442189, IndexingTime=3.890474 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749776, cnt=36.139019, unique=1, std=9.393179, Recall=0.622292
+cc=619.206726, pruning=0.441918, IndexingTime=3.773805 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746231, cnt=36.153984, unique=1, std=9.399586, Recall=0.635133
+cc=618.356201, pruning=0.439626, IndexingTime=3.713006 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752254, cnt=36.170574, unique=1, std=9.414091, Recall=0.658063
+cc=621.416626, pruning=0.441253, IndexingTime=3.669989 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746280, cnt=36.174248, unique=1, std=9.395847, Recall=0.635690
+cc=620.691833, pruning=0.440433, IndexingTime=2.350941 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751973, cnt=36.142746, unique=1, std=9.410713, Recall=0.638874
+cc=619.626892, pruning=0.441339, IndexingTime=2.278783 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754321, cnt=36.157715, unique=1, std=9.399215, Recall=0.634327
+cc=619.352295, pruning=0.440191, IndexingTime=2.402063 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754627, cnt=36.175522, unique=1, std=9.399211, Recall=0.612021
+cc=619.996582, pruning=0.441190, IndexingTime=2.340069 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749134, cnt=36.158634, unique=1, std=9.399445, Recall=0.629958
+cc=620.671997, pruning=0.441239, IndexingTime=2.193625 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756078, cnt=36.164616, unique=1, std=9.403749, Recall=0.606209
+cc=620.863159, pruning=0.441822, IndexingTime=2.290712 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747084, cnt=36.177643, unique=1, std=9.399847, Recall=0.628560
+cc=619.860413, pruning=0.440912, IndexingTime=2.363096 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751884, cnt=36.173973, unique=1, std=9.395184, Recall=0.641886
+cc=620.699402, pruning=0.441281, IndexingTime=2.215437 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751516, cnt=36.194679, unique=1, std=9.406743, Recall=0.637929
+cc=620.215454, pruning=0.441692, IndexingTime=2.293640 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750898, cnt=36.191154, unique=1, std=9.412011, Recall=0.655017
+cc=620.530579, pruning=0.440595, IndexingTime=2.118251 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748329, cnt=36.153339, unique=1, std=9.401175, Recall=0.620240
+cc=619.039124, pruning=0.441066, IndexingTime=2.053196 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754899, cnt=36.151382, unique=1, std=9.396000, Recall=0.623647
+cc=618.995056, pruning=0.440977, IndexingTime=1.993515 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748882, cnt=36.174911, unique=1, std=9.405909, Recall=0.634791
+cc=619.374451, pruning=0.441676, IndexingTime=2.139751 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746140, cnt=36.160980, unique=1, std=9.405943, Recall=0.650846
+cc=620.790955, pruning=0.440597, IndexingTime=2.033712 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758600, cnt=36.166553, unique=1, std=9.410197, Recall=0.626067
+cc=620.347900, pruning=0.441553, IndexingTime=2.091540 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754234, cnt=36.155518, unique=1, std=9.398973, Recall=0.607578
+cc=618.463013, pruning=0.441308, IndexingTime=2.249296 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743002, cnt=36.164318, unique=1, std=9.412867, Recall=0.656661
+cc=620.645264, pruning=0.441509, IndexingTime=2.672304 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749576, cnt=36.165890, unique=1, std=9.408052, Recall=0.635952
+cc=620.977478, pruning=0.440560, IndexingTime=2.378064 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752265, cnt=36.174084, unique=1, std=9.401655, Recall=0.615562
+cc=619.946655, pruning=0.442015, IndexingTime=2.298026 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750024, cnt=36.149353, unique=1, std=9.401793, Recall=0.627875
+cc=619.275085, pruning=0.442267, IndexingTime=2.286654 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748038, cnt=36.147121, unique=1, std=9.408864, Recall=0.642450
+cc=619.388916, pruning=0.440979, IndexingTime=2.228121 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.759672, cnt=36.148060, unique=1, std=9.406232, Recall=0.617904
+cc=619.126587, pruning=0.441330, IndexingTime=2.330099 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754485, cnt=36.157417, unique=1, std=9.395339, Recall=0.624026
+cc=621.029663, pruning=0.441482, IndexingTime=2.218386 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754546, cnt=36.145237, unique=1, std=9.396570, Recall=0.628438
+cc=619.336914, pruning=0.440069, IndexingTime=2.156765 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756105, cnt=36.154686, unique=1, std=9.388665, Recall=0.621330
+cc=619.132019, pruning=0.441379, IndexingTime=2.013520 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747254, cnt=36.178604, unique=1, std=9.413350, Recall=0.640732
+cc=620.025146, pruning=0.440000, IndexingTime=2.318272 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.761637, cnt=36.136562, unique=1, std=9.408329, Recall=0.617469
+cc=619.389832, pruning=0.440754, IndexingTime=2.352059 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748040, cnt=36.172016, unique=1, std=9.414107, Recall=0.621524
+cc=620.268433, pruning=0.440425, IndexingTime=2.190313 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744296, cnt=36.167088, unique=1, std=9.410875, Recall=0.660590
+cc=620.182678, pruning=0.441182, IndexingTime=2.134616 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751875, cnt=36.154633, unique=1, std=9.403090, Recall=0.635278
+cc=620.140625, pruning=0.439612, IndexingTime=2.188937 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745464, cnt=36.145550, unique=1, std=9.407454, Recall=0.649861
+cc=620.053345, pruning=0.440552, IndexingTime=2.072365 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752328, cnt=36.146549, unique=1, std=9.405801, Recall=0.629931
+cc=619.952332, pruning=0.442149, IndexingTime=1.983030 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.742227, cnt=36.116096, unique=1, std=9.392621, Recall=0.659619
+cc=619.480225, pruning=0.440071, IndexingTime=2.891639 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750854, cnt=36.150719, unique=1, std=9.418217, Recall=0.644625
+cc=619.950195, pruning=0.441531, IndexingTime=2.889795 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753929, cnt=36.143799, unique=1, std=9.396899, Recall=0.618839
+cc=620.515991, pruning=0.441655, IndexingTime=2.873128 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754215, cnt=36.169727, unique=1, std=9.404217, Recall=0.620346
+cc=620.119934, pruning=0.440188, IndexingTime=2.859511 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752771, cnt=36.163120, unique=1, std=9.411445, Recall=0.641787
+cc=620.042908, pruning=0.441676, IndexingTime=2.825681 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746501, cnt=36.155628, unique=1, std=9.394285, Recall=0.635544
+cc=620.004089, pruning=0.440931, IndexingTime=2.768772 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754905, cnt=36.183273, unique=1, std=9.397134, Recall=0.638513
+cc=619.654297, pruning=0.441137, IndexingTime=2.848383 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746953, cnt=36.161240, unique=1, std=9.407100, Recall=0.642270
+cc=619.201111, pruning=0.441305, IndexingTime=2.838383 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753778, cnt=36.158192, unique=1, std=9.421750, Recall=0.644482
+cc=618.766541, pruning=0.441846, IndexingTime=2.269766 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746856, cnt=36.152103, unique=1, std=9.391205, Recall=0.624697
+cc=619.557312, pruning=0.439507, IndexingTime=2.362103 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757305, cnt=36.153599, unique=1, std=9.398756, Recall=0.621823
+cc=619.079468, pruning=0.440925, IndexingTime=2.310908 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749008, cnt=36.187389, unique=1, std=9.401854, Recall=0.629247
+cc=620.257019, pruning=0.441510, IndexingTime=2.508186 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745973, cnt=36.163101, unique=1, std=9.398344, Recall=0.660290
+cc=619.086060, pruning=0.440242, IndexingTime=2.184435 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753663, cnt=36.172718, unique=1, std=9.389991, Recall=0.624712
+cc=619.484741, pruning=0.439712, IndexingTime=2.110065 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.759063, cnt=36.162418, unique=1, std=9.404243, Recall=0.625687
+cc=620.486633, pruning=0.441463, IndexingTime=2.211291 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747128, cnt=36.130325, unique=1, std=9.405886, Recall=0.655715
+cc=619.039673, pruning=0.441583, IndexingTime=1.969219 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751675, cnt=36.142284, unique=1, std=9.406175, Recall=0.631242
+cc=620.877869, pruning=0.440356, IndexingTime=2.362489 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756344, cnt=36.176113, unique=1, std=9.394207, Recall=0.596600
+cc=619.322266, pruning=0.442492, IndexingTime=2.253229 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752544, cnt=36.158157, unique=1, std=9.412971, Recall=0.624282
+cc=619.687439, pruning=0.441317, IndexingTime=2.328577 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758201, cnt=36.170429, unique=1, std=9.402472, Recall=0.638601
+cc=620.227295, pruning=0.440525, IndexingTime=2.254644 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747766, cnt=36.142582, unique=1, std=9.400182, Recall=0.623718
+cc=619.406006, pruning=0.441059, IndexingTime=2.333867 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752315, cnt=36.141712, unique=1, std=9.395727, Recall=0.627467
+cc=619.575745, pruning=0.440428, IndexingTime=2.294758 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751047, cnt=36.167530, unique=1, std=9.417753, Recall=0.644027
+cc=619.742798, pruning=0.442334, IndexingTime=2.336463 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751077, cnt=36.161476, unique=1, std=9.404419, Recall=0.639253
+cc=621.834412, pruning=0.439722, IndexingTime=2.400879 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754776, cnt=36.192112, unique=1, std=9.407635, Recall=0.637802
+cc=619.812561, pruning=0.441561, IndexingTime=2.315565 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748527, cnt=36.187885, unique=1, std=9.411819, Recall=0.631796
+cc=621.807129, pruning=0.440115, IndexingTime=2.287885 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.747553, cnt=36.173916, unique=1, std=9.416007, Recall=0.642750
+cc=620.908875, pruning=0.441071, IndexingTime=2.340323 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752589, cnt=36.151863, unique=1, std=9.419061, Recall=0.625930
+cc=621.521790, pruning=0.441491, IndexingTime=2.355959 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.741225, cnt=36.160187, unique=1, std=9.415445, Recall=0.661605
+cc=620.150940, pruning=0.440931, IndexingTime=2.383640 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.753649, cnt=36.182240, unique=1, std=9.401841, Recall=0.634190
+cc=620.114563, pruning=0.441325, IndexingTime=2.209902 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.750951, cnt=36.166073, unique=1, std=9.416810, Recall=0.627857
+cc=619.957397, pruning=0.440667, IndexingTime=2.197590 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.760023, cnt=36.164837, unique=1, std=9.403555, Recall=0.603545
+cc=618.809021, pruning=0.439886, IndexingTime=2.244788 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1276.118408, cnt=37.497391, unique=1, std=9.190264, Recall=0.758960
+cc=547.998535, pruning=0.362438, IndexingTime=3.287714 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1273.914673, cnt=37.506889, unique=1, std=9.176677, Recall=0.759393
+cc=547.492554, pruning=0.362962, IndexingTime=3.449623 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.953247, cnt=37.511589, unique=1, std=9.183304, Recall=0.754680
+cc=548.009705, pruning=0.362981, IndexingTime=3.311856 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1269.364624, cnt=37.522610, unique=1, std=9.179587, Recall=0.767643
+cc=548.958923, pruning=0.363555, IndexingTime=3.329414 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1283.544434, cnt=37.503864, unique=1, std=9.179815, Recall=0.757907
+cc=547.660095, pruning=0.363571, IndexingTime=3.296621 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1284.808960, cnt=37.510601, unique=1, std=9.179875, Recall=0.763369
+cc=548.079102, pruning=0.362480, IndexingTime=3.282649 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1291.706909, cnt=37.511322, unique=1, std=9.192513, Recall=0.758494
+cc=548.303955, pruning=0.363952, IndexingTime=3.142915 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.473633, cnt=37.502792, unique=1, std=9.181175, Recall=0.760657
+cc=547.627502, pruning=0.362423, IndexingTime=3.383698 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1283.458374, cnt=37.535202, unique=1, std=9.158128, Recall=0.775472
+cc=548.977234, pruning=0.362849, IndexingTime=3.368056 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1269.809692, cnt=37.495251, unique=1, std=9.176457, Recall=0.767424
+cc=548.614868, pruning=0.363684, IndexingTime=3.281131 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1289.446411, cnt=37.508560, unique=1, std=9.189898, Recall=0.754541
+cc=548.397766, pruning=0.363216, IndexingTime=3.321293 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1270.925659, cnt=37.496655, unique=1, std=9.187768, Recall=0.780449
+cc=547.885742, pruning=0.362517, IndexingTime=3.312528 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.036621, cnt=37.502090, unique=1, std=9.176915, Recall=0.756490
+cc=546.834595, pruning=0.362944, IndexingTime=3.359669 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1274.112427, cnt=37.519497, unique=1, std=9.184743, Recall=0.757236
+cc=548.555786, pruning=0.363724, IndexingTime=3.280059 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1271.173828, cnt=37.510853, unique=1, std=9.187042, Recall=0.758670
+cc=548.530518, pruning=0.363077, IndexingTime=3.475092 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1283.844238, cnt=37.513729, unique=1, std=9.174505, Recall=0.754254
+cc=548.062256, pruning=0.363728, IndexingTime=3.094007 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1276.047729, cnt=37.507942, unique=1, std=9.184216, Recall=0.749244
+cc=548.116333, pruning=0.363773, IndexingTime=3.894524 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1267.273804, cnt=37.520485, unique=1, std=9.184767, Recall=0.760341
+cc=547.603943, pruning=0.362608, IndexingTime=3.772866 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1282.309570, cnt=37.539165, unique=1, std=9.175901, Recall=0.762203
+cc=549.161011, pruning=0.364234, IndexingTime=3.795797 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1276.401611, cnt=37.507690, unique=1, std=9.178663, Recall=0.759414
+cc=548.774963, pruning=0.362957, IndexingTime=3.792595 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1270.543091, cnt=37.522190, unique=1, std=9.197814, Recall=0.776653
+cc=548.727295, pruning=0.363074, IndexingTime=4.000486 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.921631, cnt=37.511421, unique=1, std=9.188149, Recall=0.754353
+cc=548.491333, pruning=0.362393, IndexingTime=3.797899 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1276.405151, cnt=37.510117, unique=1, std=9.189881, Recall=0.779027
+cc=548.834534, pruning=0.363110, IndexingTime=3.864873 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.100464, cnt=37.476322, unique=1, std=9.178448, Recall=0.763615
+cc=547.163940, pruning=0.362851, IndexingTime=3.807666 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1280.360474, cnt=37.522842, unique=1, std=9.182958, Recall=0.757971
+cc=548.094971, pruning=0.363452, IndexingTime=3.714262 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1280.992920, cnt=37.499065, unique=1, std=9.193100, Recall=0.750927
+cc=546.968018, pruning=0.363264, IndexingTime=3.600187 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1273.969727, cnt=37.490402, unique=1, std=9.173393, Recall=0.758105
+cc=547.653198, pruning=0.363094, IndexingTime=3.784524 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1274.363159, cnt=37.510185, unique=1, std=9.192344, Recall=0.765454
+cc=548.490234, pruning=0.361727, IndexingTime=3.756850 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1282.412476, cnt=37.498413, unique=1, std=9.176738, Recall=0.751497
+cc=547.629089, pruning=0.363245, IndexingTime=3.683592 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1272.660522, cnt=37.501255, unique=1, std=9.174688, Recall=0.783798
+cc=547.945068, pruning=0.363123, IndexingTime=3.605070 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1273.850586, cnt=37.513779, unique=1, std=9.191424, Recall=0.758344
+cc=547.765808, pruning=0.363942, IndexingTime=3.237982 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1268.798828, cnt=37.513363, unique=1, std=9.189927, Recall=0.771569
+cc=548.282654, pruning=0.361517, IndexingTime=3.509650 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748713, cnt=36.138058, unique=1, std=9.381431, Recall=0.649064
+cc=619.327576, pruning=0.440374, IndexingTime=2.354751 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748073, cnt=36.152527, unique=1, std=9.402086, Recall=0.649512
+cc=619.092224, pruning=0.442757, IndexingTime=2.324773 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754054, cnt=36.152878, unique=1, std=9.413226, Recall=0.618238
+cc=619.041565, pruning=0.441729, IndexingTime=2.308969 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744117, cnt=36.166775, unique=1, std=9.408705, Recall=0.652924
+cc=620.267273, pruning=0.440707, IndexingTime=2.454748 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748389, cnt=36.179508, unique=1, std=9.383244, Recall=0.650732
+cc=618.357178, pruning=0.440625, IndexingTime=2.539208 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.745808, cnt=36.119843, unique=1, std=9.389126, Recall=0.650367
+cc=618.300781, pruning=0.440722, IndexingTime=2.241797 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755320, cnt=36.183422, unique=1, std=9.383880, Recall=0.627285
+cc=619.485718, pruning=0.440082, IndexingTime=2.272578 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.760332, cnt=36.165462, unique=1, std=9.410687, Recall=0.629828
+cc=619.135803, pruning=0.440365, IndexingTime=2.403501 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756210, cnt=36.173084, unique=1, std=9.399618, Recall=0.616027
+cc=619.966248, pruning=0.440339, IndexingTime=2.249126 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.758213, cnt=36.131176, unique=1, std=9.396442, Recall=0.625206
+cc=618.496399, pruning=0.440583, IndexingTime=2.276021 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743162, cnt=36.150219, unique=1, std=9.387228, Recall=0.656762
+cc=619.199341, pruning=0.440081, IndexingTime=2.212640 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.748311, cnt=36.160461, unique=1, std=9.395986, Recall=0.632911
+cc=620.803711, pruning=0.439596, IndexingTime=2.202915 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743446, cnt=36.160519, unique=1, std=9.411739, Recall=0.636426
+cc=619.692383, pruning=0.441373, IndexingTime=2.316183 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751049, cnt=36.184898, unique=1, std=9.406214, Recall=0.634430
+cc=620.431641, pruning=0.441463, IndexingTime=2.364094 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752702, cnt=36.135014, unique=1, std=9.386955, Recall=0.634189
+cc=619.751648, pruning=0.440846, IndexingTime=2.380279 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.746979, cnt=36.165112, unique=1, std=9.406295, Recall=0.628408
+cc=621.547241, pruning=0.440294, IndexingTime=2.088118 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755469, cnt=36.180229, unique=1, std=9.404662, Recall=0.620277
+cc=620.386230, pruning=0.441077, IndexingTime=2.463634 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755923, cnt=36.201157, unique=1, std=9.412228, Recall=0.629068
+cc=621.228271, pruning=0.440461, IndexingTime=2.614930 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755068, cnt=36.165371, unique=1, std=9.410183, Recall=0.614351
+cc=620.252441, pruning=0.441150, IndexingTime=2.386535 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.761690, cnt=36.172016, unique=1, std=9.421217, Recall=0.625135
+cc=620.762146, pruning=0.440637, IndexingTime=2.350854 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.744687, cnt=36.165020, unique=1, std=9.410656, Recall=0.653973
+cc=619.646606, pruning=0.441666, IndexingTime=2.299743 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.756022, cnt=36.151218, unique=1, std=9.402982, Recall=0.633029
+cc=618.739380, pruning=0.440841, IndexingTime=2.344253 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.752226, cnt=36.159744, unique=1, std=9.411420, Recall=0.623869
+cc=620.064148, pruning=0.441581, IndexingTime=2.728544 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.760602, cnt=36.175465, unique=1, std=9.394164, Recall=0.625856
+cc=620.815918, pruning=0.442402, IndexingTime=2.383550 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.755931, cnt=36.143208, unique=1, std=9.411114, Recall=0.617692
+cc=620.527405, pruning=0.440408, IndexingTime=2.334393 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.754301, cnt=36.172718, unique=1, std=9.414963, Recall=0.628525
+cc=619.619629, pruning=0.440743, IndexingTime=2.310970 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.743083, cnt=36.152714, unique=1, std=9.408921, Recall=0.634451
+cc=621.077759, pruning=0.440577, IndexingTime=2.403720 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.738161, cnt=36.187702, unique=1, std=9.402934, Recall=0.637412
+cc=621.010742, pruning=0.442338, IndexingTime=2.247848 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751682, cnt=36.146954, unique=1, std=9.401968, Recall=0.643276
+cc=618.309692, pruning=0.440952, IndexingTime=2.243714 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.749834, cnt=36.172199, unique=1, std=9.409064, Recall=0.634595
+cc=620.314453, pruning=0.441391, IndexingTime=2.246663 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.751005, cnt=36.180264, unique=1, std=9.413522, Recall=0.648329
+cc=620.597656, pruning=0.441594, IndexingTime=2.132244 s.
+
+./indexes/audio.index_divGraph
+T=24,L=2,K=18
+dist=0.757056, cnt=36.188107, unique=1, std=9.406882, Recall=0.621353
+cc=619.840576, pruning=0.440477, IndexingTime=2.032828 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1279.135498, cnt=37.516254, unique=1, std=9.184943, Recall=0.765391
+cc=548.334473, pruning=0.363262, IndexingTime=4.638814 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1275.720825, cnt=37.497272, unique=1, std=9.187711, Recall=0.757580
+cc=547.351501, pruning=0.363473, IndexingTime=4.594690 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1280.130005, cnt=37.522091, unique=1, std=9.197303, Recall=0.763728
+cc=548.071228, pruning=0.362311, IndexingTime=4.794937 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1278.411743, cnt=37.516922, unique=1, std=9.188275, Recall=0.760895
+cc=547.385132, pruning=0.362966, IndexingTime=4.559525 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1274.242676, cnt=37.501724, unique=1, std=9.188460, Recall=0.767187
+cc=548.343201, pruning=0.363156, IndexingTime=4.610826 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1288.799316, cnt=37.511139, unique=1, std=9.206343, Recall=0.744491
+cc=547.586548, pruning=0.364149, IndexingTime=4.589215 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1276.144409, cnt=37.512173, unique=1, std=9.176278, Recall=0.756346
+cc=547.789185, pruning=0.363294, IndexingTime=4.602481 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1289.575073, cnt=37.514149, unique=1, std=9.170014, Recall=0.748097
+cc=546.764038, pruning=0.364431, IndexingTime=4.584775 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1291.722046, cnt=37.539383, unique=1, std=9.190233, Recall=0.752777
+cc=550.026672, pruning=0.364294, IndexingTime=4.566842 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1288.212280, cnt=37.512306, unique=1, std=9.196104, Recall=0.740591
+cc=548.231628, pruning=0.363136, IndexingTime=4.503073 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1282.315552, cnt=37.524380, unique=1, std=9.174951, Recall=0.765674
+cc=548.530212, pruning=0.363973, IndexingTime=4.515865 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1273.564819, cnt=37.500034, unique=1, std=9.177050, Recall=0.773176
+cc=547.555298, pruning=0.361830, IndexingTime=4.869905 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1272.547729, cnt=37.514599, unique=1, std=9.183060, Recall=0.763824
+cc=548.655762, pruning=0.363799, IndexingTime=4.403388 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1284.615112, cnt=37.495033, unique=1, std=9.188910, Recall=0.758282
+cc=547.984253, pruning=0.362447, IndexingTime=4.377156 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1271.328979, cnt=37.501507, unique=1, std=9.185409, Recall=0.750261
+cc=547.817383, pruning=0.362777, IndexingTime=4.171999 s.
+
+./indexes/mnist.index_divGraph
+T=24,L=2,K=18
+dist=1290.165649, cnt=37.514313, unique=1, std=9.173875, Recall=0.747123
+cc=548.260010, pruning=0.362946, IndexingTime=3.992339 s.
+
