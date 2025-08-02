@@ -1,76 +1,154 @@
-# The Source Code for LSH-APG (PVLDB 2023)
------------------------------------------------------------------------------------------------------------------
+## Distance-Aware Pruned Graphs for Efficient ANN Search (Submitted to VLDB 2026)
+
+> **Distance-Aware Pruned Graphs for Accurate and Efficient Approximate Nearest Neighbor Search**  
+> *Submitted to VLDB 2026*
+---
+
 ## Introduction
-This is a source code for the algorithm described in the paper **Towards Efficient Index Construction and Approximate Nearest Neighbor Search in High-Dimensional Spaces (Accepted by PVLDB 2023)**. We call it as **LG** project.
+
+This repository provides the source code for **DAPG**, a novel graph-based Approximate Nearest Neighbor (ANN) indexing system introduced in the paper:
+DAPG integrates a **Distance-Aware Pruning (DAP)** mechanism into proximity graph construction, enabling efficient ANN search with reduced edge redundancy and improved recall. It adapts pruning thresholds based on **local geometric statistics**, producing sparse yet high-quality graphs.
+
+
+---
 
 ## Compilation
 
-**LG** project is written by **C++** and can be complied by **g++** in **Linux** and **MSVC** in **Windows**. It adopt `openMP` for parallelism.
+The code is implemented in **C++11** and supports parallelism using **OpenMP**. It can be compiled on both Linux and Windows.
 
+### Linux
 
-### Installation
-#### Windows
-We can use **Visual Studio 2019** to build the project with importing all the files in the directory `./cppCode/LSH-APG/src/`.
-
-#### Linux
 ```bash
-cd ./cppCode/LSH-APG
+cd ./cppCode/DAPG
 make
 ```
-The excutable file is then in dbLSH directory, called as `lgo`
+
+###  Windows
+
+Use **Visual Studio 2019+** to import the project located in:
+
+```
+./cppCode/DAPG/src/
+```
+
+Make sure to enable OpenMP and C++11 support in the build settings.
 
 ## Usage
 
-### Command Usage
-
--------------------------------------------------------------------
-> lgo datasetName
--------------------------------------------------------------------
-(the first parameter specifies the procedure be executed and change)
-
-### Parameter explanation
-
-- datasetName  : dataset name
--------------------------------------------------------------------
-
-FOR EXAMPLE, YOU CAN RUN THE FOLLOWING CODE IN COMMAND LINE AFTER BUILD ALL THE TOOLS:
+### Command Format
 
 ```bash
-cd ./cppCode/LSH-APG
-./lgo audio
+./dapg datasetName
 ```
 
-## Dataset
+- `datasetName`: The name of the dataset (e.g., `sift`, `mnist`, `audio`)
 
-In our project, the format of the input file (such as `audio.data_new`, which is in `float` data type) is the same as that in [LSHBOX](https://github.com/RSIA-LIESMARS-WHU/LSHBOX). It is a binary file, which is organized as the following format:
+### Example
 
->{Bytes of the data type (int)} {The size of the vectors (int)} {The dimension of the vectors (int)} {All of the binary vector, arranged in turn (float)}
+```bash
+cd ./cppCode/DAPG
+./dapg sift
+```
+
+This runs DAPG index construction and search on the `sift` dataset.
+
+## Key Features
+
+-  Distance-Aware Local Pruning: Adapts edge filtering based on local percentile distances.
+-  Sparsity Control: Limits node degree while preserving connectivity in sparse regions.
+-  Improved Recall–Latency Tradeoff: Reduces query time without degrading recall.
+-  Compatible with LSH-based Pipelines: Easily integrates with existing LSH-APG or other ANN frameworks.
+
+## Dataset Format
+
+The expected input format is a binary file containing float vectors, structured as:
+
+```
+{int: float size in bytes}
+{int: number of vectors}
+{int: dimension}
+{float[]: all vector values, stored sequentially}
+```
+
+### Example: `sift.data_new`
+
+To use your dataset:
+
+1. Convert it into the binary format shown above.
+2. Rename it as `[datasetName].data_new`
+3. Place it in: `./dataset/`
+
+A sample dataset (e.g., `audio.data_new`) is already provided.
+
+## Benchmark Datasets
+
+We support and have tested DAPG on:
+
+- [Audio](https://github.com/RSIA-LIESMARS-WHU/LSHBOX-sample-data)
+- [SIFT](http://corpus-texmex.irisa.fr/)
+- [Deep1M](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/deep1M.tar.gz)
+- [MNIST](http://yann.lecun.com/exdb/mnist/)
+- [SIFT100M](http://corpus-texmex.irisa.fr/)
 
 
-For your application, you should also transform your dataset into this binary format, then rename it as `[datasetName].data_new` and put it in the directory `./dataset`.
+Convert these into the `.data_new` format for compatibility.
 
-A sample dataset `audio.data_new` has been put in the directory `./dataset`.
-Also, you can get it, `audio.data`, from [here](http://www.cs.princeton.edu/cass/audio.tar.gz)(if so, rename it as `audio.data_new`). If the link is invalid, you can also get it from [data](https://github.com/RSIA-LIESMARS-WHU/LSHBOX-sample-data).
+## System Setup
 
-For the datasets we use, you can get the raw data from following links: [MNIST](http://yann.lecun.com/exdb/mnist/index.html), [Deep1M](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/deep1M.tar.gz), [GIST](http://corpus-texmex.irisa.fr/), [TinyImages80M](https://hyper.ai/tracker/download?torrent=6552), [SIFT](http://corpus-texmex.irisa.fr/). Next, you should transform your raw dataset into the mentioned binary format, then rename it is `[datasetName].data_new` and put it in the directory `./dataset`.
+Our experiments were conducted on both local and cloud-based environments to evaluate the efficiency and scalability of the DAPG system.
 
-## Reference
+###  Local Workstation
+- **Processor**: 13th Gen Intel® Core™ i9-13900HX (24 cores, 32 threads)
+- **Base Frequency**: 2.2 GHz  
+- **OS**: Ubuntu 20.04 LTS  
+- **Precision**: `float32` for all vectors  
+- **Implementation**: C++ with multi-threading via OpenMP  
+- **Query Setup**: 104 queries per experiment, averaged over 5 independent runs
 
-Please use the following bibtex to cite this work when you use **LSH-APG** in your paper.
+###  Microsoft Azure Virtual Machines
 
-```tex
-@article{DBLP:journals/pvldb/ZhaoTHZZ23,
-  author       = {Xi Zhao and
-                  Yao Tian and
-                  Kai Huang and
-                  Bolong Zheng and
-                  Xiaofang Zhou},
-  title        = {Towards Efficient Index Construction and Approximate Nearest Neighbor
-                  Search in High-Dimensional Spaces},
-  journal      = {Proc. {VLDB} Endow.},
-  volume       = {16},
-  number       = {8},
-  pages        = {1979--1991},
-  year         = {2023}
+1. **Standard F32s v2**
+   - **vCPUs**: 32  
+   - **RAM**: 64 GiB  
+   - **Dataset**: SIFT1M  
+   - **Purpose**: Scalability evaluation
+
+2. **Standard E64-32s v3 (High-Memory)**
+   - **vCPUs**: 32 (Intel® Xeon® Platinum 8272CL)  
+   - **RAM**: 432 GiB  
+   - **Disk**: 1 TB Premium SSD  
+   - **OS**: Ubuntu 22.04 LTS  
+   - **Dataset**: SIFT100M  
+   - **Purpose**: Large-scale indexing and ANN benchmarking
+
+This high-memory configuration allowed for efficient scaling to large datasets, and multi-threaded execution ensured fast parallel processing during both index construction and query search.
+
+## Citation
+```bibtex
+@article{
+  author    = {Solmaz S. Monir and Dongfang Zhao},
+  title     = {Distance-Aware Pruned Graphs for Accurate and Efficient Approximate Nearest Neighbor Search},
+  journal   = {Proc. VLDB Endow.},
+  year      = {2026},
+  note      = {Submitted}
 }
 ```
+
+## Directory Structure
+
+```
+.
+├── cppCode/
+│   ├── DAPG/
+│   │   ├── src/           # Core source code
+│   │   ├── include/       # Headers
+│   │   ├── Makefile
+│   │   └── bin/           # Executable output
+├── dataset/               # Contains .data_new binary datasets
+├── scripts/               # Python tools (optional)
+└── README.md
+```
+
+## Contact
+
+For questions or contributions, please open an issue or contact the authors listed in the paper.
