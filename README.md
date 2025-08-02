@@ -85,7 +85,7 @@ A sample dataset (e.g., `audio.data_new`) is already provided.
 We support and have tested DAPG on:
 
 - [Audio](https://github.com/RSIA-LIESMARS-WHU/LSHBOX-sample-data)
-- [SIFT](http://corpus-texmex.irisa.fr/)
+- [SIFT1M](http://corpus-texmex.irisa.fr/)
 - [Deep1M](https://www.cse.cuhk.edu.hk/systems/hash/gqr/dataset/deep1M.tar.gz)
 - [MNIST](http://yann.lecun.com/exdb/mnist/)
 - [SIFT100M](http://corpus-texmex.irisa.fr/)
