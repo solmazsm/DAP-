@@ -122,9 +122,11 @@ Our experiments were conducted on both local and cloud-based environments to eva
    - **Purpose**: Large-scale indexing and ANN benchmarking
 
 This high-memory configuration allowed for efficient scaling to large datasets, and multi-threaded execution ensured fast parallel processing during both index construction and query search.
+``` 
 /*
+ * 
+ * Advisor: Professor Dongfang Zhao
  * Author: Solmaz Seyed Monir  
- * Advisor: Professor Dongfang Zhao  
  * Affiliation: Database Research Group, University of Washington  
  * Description: Implementation of DAPG (Distance-Aware Pruned Graphs)  
  * Paper: Submitted to VLDB 2026  
@@ -139,7 +141,7 @@ This high-memory configuration allowed for efficient scaling to large datasets, 
  *
  * All modifications by: Solmaz Seyed Monir
  */
-
+```
 ## Citation
 ```bibtex
 @article{
