@@ -1,3 +1,21 @@
+/**
+ * brief LSH-based refined insertion with percentile pruning.
+ * Advisor: Professor Dongfang Zhao
+ * Author: Solmaz Seyed Monir
+ 
+ * Affiliation: Database Research Group, University of Washington
+ * Description: Implementation of DAPG (Distance-Aware Pruned Graphs)
+ * Paper: Submitted to VLDB 2026
+ * 
+ * Description:
+ * - Computes a local threshold (τ_q) based on the 80th percentile of distances.
+ * - Only retains neighbors that are within τ_q of the query node.
+ * 
+ * Benefits:
+ * - Promotes sparser graph construction.
+ * - Filters out weak or far neighbors.
+ * - Stores τ_q in `last_threshold` for traceability.
+ */
 #pragma once
 #include "e2lsh.h"
 #include "space_l2.h"
@@ -494,6 +512,11 @@ void divGraph::insertLSHRefine(int pId)
 	std::priority_queue<Res, std::vector<Res>, std::greater<Res>> eps;
 
 	// 1. Collect all candidate distances
+	// Modified by Solmaz Seyed Monir on 2025-08-01
+	// Purpose: Compute τ_q as local p-th percentile (80%) for pruning
+
+// Step 1: Collect all candidate distances from the priority queue
+// Reason: We need the full list of distances to compute the 80th percentile
 	std::vector<Res> candidates;
 	while (!candTable.empty()) {
 		candidates.push_back(candTable.top());
@@ -501,19 +524,26 @@ void divGraph::insertLSHRefine(int pId)
 	}
 
 	// 2. Sort by distance
+       // Step 2: Sort candidates by distance (ascending)
+       // Reason: To enable percentile-based selection (e.g., 80% threshold)
 	std::sort(candidates.begin(), candidates.end(), [](const Res& a, const Res& b) {
 		return a.dist < b.dist;
 	});
 
 	// 3. Compute percentile threshold (e.g., 80th percentile)
+	// Step 3: Compute the 80th percentile threshold τ_q
+// τ_q is the distance below which the top 80% of candidates
 	float threshold = -1.0f;
 	if (!candidates.empty()) {
 		size_t percentile_idx = candidates.size() * 0.8;
 		threshold = candidates[std::min(percentile_idx, candidates.size() - 1)].dist;
 	}
+	// Store τ_q in the class variable for later analysis/debugging
 	this->last_threshold = threshold; // Store the real threshold for output
 
 	// 4. Add only edges below threshold
+	// Step 5: Insert only neighbors with distance less than τ_q
+// Reason: This filtering reduces noise and preserves only locally significant edges
 	for (const auto& u : candidates) {
 		if (u.dist < threshold) {
 			linkLists[pId]->insert(u.dist, u.id);
