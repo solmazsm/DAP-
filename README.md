@@ -123,26 +123,40 @@ Our experiments were conducted on both local and cloud-based environments to eva
    - **Purpose**: Large-scale indexing and ANN benchmarking
 
 This high-memory configuration allowed for efficient scaling to large datasets, and multi-threaded execution ensured fast parallel processing during both index construction and query search.
-``` 
-/*
- * 
- * Advisor: Professor Dongfang Zhao
- * Author: Solmaz Seyed Monir  
- * Affiliation: Database Research Group, University of Washington  
- * Description: Implementation of DAPG (Distance-Aware Pruned Graphs)  
- * Paper: Submitted to VLDB 2026  
- ## cppCode/DAPG/main.cpp
- *  Loop over W and k: Hyperparameter tuning for DAPG evaluation  
- *  Dataset default: Automatic dataset selection with preprocessing  
- *  Graph construction: Percentile-based pruning implemented  
- *  algNameStream: Logging pruning threshold in algorithm name  
- *  uniqueResults map: Multi-metric tracking for recall, cost, time, and pruning  
- *  Summary log: Index size, indexing time, recall, and pruning recorded  
- *  Time-stamped run end: Log end timestamp for reproducibility  
- *
- * All modifications by: Solmaz Seyed Monir
- */
-```
+ 
+
+## [2025-08-01] – Local Percentile-Based Pruning Integration
+### Key Features and Observations
+
+#### Hybrid LSH + Graph Construction
+- Integrated LSH-based candidate retrieval (`searchLSH`) with incremental graph building.
+- Used `insertLSHRefine` to refine candidate neighbors before inserting them into the graph.
+
+#### Distance-Aware Pruning (DAP)
+- Introduced a percentile-based thresholding mechanism.
+- For each node, computed the 80th percentile distance (τ_q) over LSH candidates.
+- Inserted only neighbors with `dist < τ_q` to ensure sparsity and relevance.
+- Exposed `last_threshold` for optional diagnostics or debugging.
+
+####  Neighbor Management
+- Supports two pruning strategies:
+  - `chooseNN_div`: Ensures selected neighbors are both close and diverse (distance-based repulsion).
+  - `chooseNN_simple`: Simplified version using max-heap filtering.
+
+####  Parallel Construction
+- Used `ParallelFor` to insert all nodes in parallel (except the first).
+- Enabled thread safety via `std::shared_mutex` for concurrent graph updates.
+- Fallbacks to `std::mutex` when C++17 is not available.
+
+#### Serialization
+- Graph (`linkLists`) and LSH hash tables are saved to and loaded from a binary format.
+- Implemented in `save()` and the constructor `divGraph(Preprocess* prep, ...)`.
+
+####  Search Procedure
+- Two-stage hybrid search:
+  1. LSH-based candidate generation (`searchLSH`).
+  2. Graph-based search refinement (`bestFirstSearchInGraph`).
+- Reflects an LSH-HNSW-style retrieval pipeline for improved accuracy and speed.
 
 ## Benchmark Logs
 
@@ -206,35 +220,40 @@ We evaluate DAP across a range of:
 - `k ∈ {1, 10, 20, ..., 100}`
 - `ef` values for query expansion
 
-This allows robust analysis of recall and efficiency across diverse search settings.
+This allows robust analysis of recall and efficiency across diverse search settings
 
 
-## Citation
-```bibtex
-@article{
-  author    = {Solmaz S. Monir and Dongfang Zhao},
-  title     = {Distance-Aware Pruned Graphs for Accurate and Efficient Approximate Nearest Neighbor Search},
-  journal   = {Proc. VLDB Endow.},
-  year      = {2026},
-  note      = {Submitted}
-}
-```
-
-## Directory Structure
+## Research Project Directory Structure
 
 ```
 .
-├── cppCode/
-│   ├── DAPG/
-│   │   ├── src/           # Core source code
-│   │   ├── include/       # Headers
-│   │   ├── Makefile
-│   │   └── bin/           # Executable output
-├── dataset/               # Contains .data_new binary datasets
-├── scripts/               # Python tools (optional)
-└── README.md
+├── .vscode/                         # VS Code settings
+├── Report/                          # Project report and documentation
+├── cppCode/                         # Main C++ codebase
+│   ├── DAPG/                        # Modified: Distance-Aware Pruned Graph implementation
+│   └── LSH-APG/                     # Modification: Based on the LSH-APG baseline, enhanced with Distance-Aware Pruning (DAP) 
+    
+│       ├── indexes/                # Precomputed or saved index files
+│       ├── src/                    # Modified: Updated source files (e.g., insertLSHRefine)
+│       ├── Makefile                # Build configuration
+│       ├── all_index_stats.txt     # index performance stats (DAP)
+│       ├── audio_all_index_stats.txt
+│       ├── lgo                     # Executable 
+│       └── mnist_all_index_stats.txt
+├── dataset/                         # Benchmark datasets (e.g., MNIST, Audio)(DAPG)
+├── .gitattributes                   
+├── .gitignore                       
+├── LICENSE                          
+└── README.md                       
 ```
-
 ## Contact
 
 For questions or contributions, please open an issue or contact the authors listed in the paper.
+
+**Modified and Authored by:**  
+**Solmaz Seyed Monir**, Ph.D. Student  
+**Professor Dongfang Zhao**, Advisor  
+Affiliation: Database Research Group, University of Washington  
+Date: **2025-08-01**  
+Affected Files: `divgraph.cpp`, `Node2`, `insertLSHRefine`, `README.md`
+
