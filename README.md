@@ -158,6 +158,27 @@ All data in this file was automatically logged during batch experiments executed
 
 These results validate the effectiveness of our DAPG method, as submitted in the VLDB 2026 paper.
 
+
+### Experimental Results Log
+
+We provide experimental results produced by our DAPG system on the MNIST dataset.
+
+- The file [`mnist_result.txt`](./cppCode/DAPG/indexes/mnist_result.txt) contains timestamped benchmark logs produced from running LSH-G with varying `ef`, `k`, and pruning thresholds.
+- The header includes configuration details such as:  
+  `k=20, probQ=0.9, L=2, K=18, T=24`
+
+Each row records:
+- `algName`: algorithm configuration with pruning threshold
+- `k`: number of neighbors
+- `ef`: search parameter
+- `Time`: average query time (ms)
+- `Recall`: search recall
+- `Cost`, `CPQ1`, `CPQ2`: computation cost metrics
+- `Pruning`: pruning ratio applied
+
+These logs support reproducibility and provide a transparent view of DAPG’s performance characteristics.
+
+
 ## Citation
 ```bibtex
 @article{
