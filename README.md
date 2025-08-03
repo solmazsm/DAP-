@@ -142,6 +142,22 @@ This high-memory configuration allowed for efficient scaling to large datasets, 
  * All modifications by: Solmaz Seyed Monir
  */
 ```
+
+## Benchmark Logs
+
+The file [`mnist_all_index_stats.txt`](cppCode/LSH-APG/mnist_all_index_stats.txt) contains **experimental results** produced by running the DAPG implementation on the MNIST dataset.
+
+Each row logs detailed metrics:
+
+- **Recall**: Top-k retrieval accuracy
+- **Pruning**: Ratio of retained neighbors after DAP-based filtering
+- **Time**, **Cost**, and additional performance indicators
+- **Algorithm Name**: Includes pruning threshold information (e.g., `DAP_k10_th...`)
+
+All data in this file was automatically logged during batch experiments executed using the modified `main()` function in `cppCode/LSH-APG/src`.
+
+These results validate the effectiveness of our DAPG method, as submitted in the VLDB 2026 paper.
+
 ## Citation
 ```bibtex
 @article{
