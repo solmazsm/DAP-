@@ -161,7 +161,7 @@ These results validate the effectiveness of our DAPG method, as submitted in the
 
 ### Experimental Results Log
 
-We provide the experimental results produced by our DAPG system on the MNIST dataset.
+The experimental results presented here were produced by our DAPG system on the MNIST dataset to support reproducibility and performance evaluation.
 
 - The file [`mnist_result.txt`](./cppCode/DAPG/indexes/mnist_result.txt) contains timestamped benchmark logs produced from running LSH-G with varying `ef`, `k`, and pruning thresholds.
 - The header includes configuration details such as:  
