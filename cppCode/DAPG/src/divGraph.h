@@ -16,6 +16,20 @@
  * - Filters out weak or far neighbors.
  * - Stores τ_q in `last_threshold` for traceability.
  */
+// =====================
+// Modified by Solmaz Seyed Monir
+// Purpose:
+//   Implements a local distance-based pruning strategy.
+//   1. Collects all candidate neighbors from the LSH table.
+//   2. Sorts them by distance to the query point.
+//   3. Computes τ_q as the 80th percentile of all distances.
+//   4. Filters and inserts only neighbors where dist < τ_q.
+// Benefit:
+//   - Reduces graph redundancy
+//   - Enhances sparsity and locality-awareness
+//   - Improves efficiency during query-time traversals
+// =====================
+
 #pragma once
 #include "e2lsh.h"
 #include "space_l2.h"
