@@ -178,6 +178,35 @@ Each row records:
 
 These logs support reproducibility and provide a transparent view of DAPG’s performance characteristics.
 
+### Parameter Settings
+
+We evaluate DAP (Distance-Aware Pruning) with:
+
+- `K = 18`, `L = 2`, `T = 24`, `T′ = 48`
+- `W = 1.0`, `pC = 0.95`, `pQ = 0.9`, `efC = 80`
+
+DAP applies **local dynamic pruning**, computing a threshold `τ_q` per node, unlike LSH-APG's global percentile pruning (`p = 95`). This results in better graph sparsity and recall-efficiency.
+
+We tune `K = 18` (vs. LSH-APG's default `K = 16`) for fairness.
+
+#### Baseline Settings
+
+- **HNSW**: `M = 48`, `ef = 80`  
+- **NSG**: `L = 40`, `R = 50`, `C = 500`  
+- **HCNNG**: 10 iterations, cluster size ≤ 500  
+- **DB-LSH**: `c = 1.5`, `K = 12`, `L = 5`
+
+---
+
+### Evaluation Setup
+
+We evaluate DAP across a range of:
+
+- `k ∈ {1, 10, 20, ..., 100}`
+- `ef` values for query expansion
+
+This allows robust analysis of recall and efficiency across diverse search settings.
+
 
 ## Citation
 ```bibtex
