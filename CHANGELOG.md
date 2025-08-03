@@ -1,6 +1,7 @@
-/*
- * Description: Implementation of DAPG (Distance-Aware Pruned Graphs)  
- * Paper: Submitted to VLDB 2026  
+
+
+## Description: Implementation of DAPG (Distance-Aware Pruned Graphs)  
+  Paper: Submitted to VLDB 2026  
  ## cppCode/DAPG/main.cpp
  *  Loop over W and k: Hyperparameter tuning for DAPG evaluation  
  *  Dataset default: Automatic dataset selection with preprocessing  
@@ -9,10 +10,10 @@
  *  uniqueResults map: Multi-metric tracking for recall, cost, time, and pruning  
  *  Summary log: Index size, indexing time, recall, and pruning recorded  
  *  Time-stamped run end: Log end timestamp for reproducibility  
- *
- * All modifications by: Solmaz Seyed Monir
- */
-```
+ 
+ All modifications by: Solmaz Seyed Monir
+
+
 
 
 ## [2025-08-01] – Local Percentile-Based Pruning Integration
@@ -50,8 +51,7 @@
 
 ---
 
-🛠️ Modified by: **Solmaz Seyed Monir**  
-📁 Affected files: `divgraph.cpp`, `Node2`, `insertLSHRefine`, `README.md`  
+
 
 ## Benchmark Logs
 
